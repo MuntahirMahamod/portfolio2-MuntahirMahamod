@@ -4,6 +4,18 @@
     font-family: 'Popping', sans-serif;
 
 }
+.logo-icon {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, rgb(187,33,5));
+    padding: 10px 20px;
+    border-radius: 10px 100px / 120px;
+    color: white;
+    font-weight: 700;
+    transition: transform 0.5s;
+    font-size: x-large;
+
+}
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -11,6 +23,9 @@
     color: #fff;
     position: relative;
 }
+
+
+
 nav{
     display: flex;
     justify-content:  space-between;
@@ -19,6 +34,7 @@ nav{
     z-index: 1;
 }
 .logo {
+    
     text-decoration: none;
     columns: #fff;
     font-size: 30px;
